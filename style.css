@@ -158,29 +158,6 @@ blockquote p {
   stroke: #ECF0F1;
 }
 
-.hero-section {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
-}
-
-.hero-image {
-  max-width: 100%; /* Ensures the image scales down on smaller screens */
-  height: auto; /* Maintains aspect ratio */
-  flex: 1; /* Allows image to take up equal space */
-}
-
-.col-1-12 {
-  flex: 1;
-  /* padding: 20px; */
-}
-
-@media screen and (max-width: 768px) {
-  .hero-image {
-    margin-bottom: 20px; 
-  }
-}
-
 /* *********************************************************
   Buttons 
 ********************************************************* */
@@ -348,11 +325,11 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 35px;
-  height: 35px;
+  width: 70px;
+  height: 93px;
   text-indent: -9999px;
-  background: url('./images/Caricature\ styled\ Image\ of\ a\ Caramel\ skinned\ Black\ man\ with\ glasses\,\ looking\ geeky\ with\ traditional\ african\ outfit\,\ eye\ lenses\ with\ very\ light\ frames\,\ with\ no\ goatee\ beards\,\ wakanda\ styled\ .png') no-repeat;
-  background-size: 35px 35px;
+  background: url('./images/TPBRUV\ Logo.png') no-repeat;
+  background-size: 70px 93px;
 }
 
 .logo:hover, .logo:focus {
