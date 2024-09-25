@@ -1604,6 +1604,11 @@ footer p, footer a {
   }
 }
 
+.email-address {
+  display: flex;
+  justify-content: center;
+}
+
 /*------------------------------------------------------------- 
   Media queries
 ---------------------------------------------------------------*/
@@ -1629,6 +1634,11 @@ footer p, footer a {
   .team-social a i {
     font-size: 1em;
     padding: 3px;
+  }
+
+  .email-address {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -1746,6 +1756,11 @@ footer p, footer a {
   #price-tables #plans > li:nth-child(2n) {
     margin-right: 0;
   }
+
+  .email-address {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media handheld, only screen and (max-width: 480px) {
@@ -1811,3 +1826,8 @@ footer p, footer a {
     font-size: 1.5em;
     padding: 8px;
   }
+
+  .email-address {
+    display: flex;
+    justify-content: center;
+  }}
